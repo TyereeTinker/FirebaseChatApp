@@ -10,7 +10,7 @@ const Stack = createStackNavigator();
 function ChatStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Login" component={Login} />
+      <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
     </Stack.Navigator>
   )
 }
